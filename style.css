@@ -57,4 +57,46 @@ body {
     font-size: 80px;
     font-weight: 700;
     margin: 0;
+    padding-top: 80px;
+}
+
+.banner>h4 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.download,
+.trade {
+    padding: 18px 24px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.download {
+    background: #EF443B;
+}
+
+.trade {
+    border-radius: 40px;
+    border: 2px solid #EF443B;
+    background: rgba(22, 14, 51, 0);
+}
+
+.banner>div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.banner>h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
