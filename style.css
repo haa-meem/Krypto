@@ -1,0 +1,37 @@
+body {
+    font-family: Rubik;
+}
+
+nav {
+    background: #160E33;
+    width: 100%;
+}
+
+.name {
+    display: inline-flex;
+    color: #EF443B;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu {
+    display: inline-flex;
+    padding: 36px 18px;
+    align-items: center;
+    gap: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sign {
+    display: inline-flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid #EF443B;
+}
