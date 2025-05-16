@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     font-family: Rubik;
 }
 
-nav {
+/*Nav Bar*/
+.nav-bar {
     background: #160E33;
     width: 100%;
 }
@@ -38,4 +41,20 @@ nav {
     border: 2px solid #EF443B;
     background: #160E33;
     margin-left: 270px;
+}
+
+/*Banner*/
+.banner {
+    background: url('./assets/bg.jpg') no-repeat center;
+    background-size: cover;
+    background-color: #160E33;
+    height: 100vh;
+}
+
+.banner>h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
 }
