@@ -13,6 +13,8 @@ nav {
     text-align: center;
     font-size: 24px;
     font-weight: 700;
+    margin-left: 165px;
+    margin-right: 172px;
 }
 
 .menu {
@@ -34,4 +36,6 @@ nav {
     gap: 12px;
     border-radius: 20px;
     border: 2px solid #EF443B;
+    background: #160E33;
+    margin-left: 270px;
 }
