@@ -48,7 +48,7 @@ body {
     background: url('./assets/bg.jpg') no-repeat center;
     background-size: cover;
     background-color: #160E33;
-    height: 800px;
+    height: 700px;
 }
 
 .banner>h1 {
@@ -65,6 +65,42 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.countdown ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 20px;
+    gap: 12px;
+}
+
+.countdown li {
+    text-align: center;
+}
+
+.num {
+    color: #EF443B;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.time {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.colon {
+    color: #EF443B;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 6px;
 }
 
 .download,
@@ -115,6 +151,12 @@ body {
 
 
 /* Trade Section */
+.etherium {
+    position: absolute;
+    bottom: 0.5%;
+    left: 4.5%;
+}
+
 .trade-sec {
     background: var(--Purple, #160E33);
 }
@@ -155,4 +197,88 @@ body {
 .trading {
     display: flex;
     align-items: center;
+}
+
+/* Available Cryptos */
+.cryptos {
+    background: #160E33;
+}
+
+.cryptos>h1 {
+    margin: 0;
+    padding-top: 80px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.cryptos>p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.card {
+    width: 350px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+}
+
+.card-img {
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    color: #160E33;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card-description {
+    color: #160E33;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.card-footer>p {
+    color: #EF443B;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-footer>button {
+    text-align: center;
+    border-radius: 40px;
+    background: #EF443B;
+    color: #FFFFFF;
+    padding: 18px 24px;
+    text-transform: uppercase;
 }
