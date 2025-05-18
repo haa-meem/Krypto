@@ -4,13 +4,13 @@ body {
     font-family: Rubik;
 }
 
-/*Nav Bar*/
+/* Nav Bar */
 .nav-bar {
     background: #160E33;
     width: 100%;
 }
 
-.name {
+.logo {
     display: inline-flex;
     color: #EF443B;
     text-align: center;
@@ -43,12 +43,12 @@ body {
     margin-left: 270px;
 }
 
-/*Banner*/
+/* Banner */
 .banner {
     background: url('./assets/bg.jpg') no-repeat center;
     background-size: cover;
     background-color: #160E33;
-    height: 100vh;
+    height: 800px;
 }
 
 .banner>h1 {
@@ -99,4 +99,60 @@ body {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.coins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coins p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Trade Section */
+.trade-sec {
+    background: var(--Purple, #160E33);
+}
+
+.trade-sec>h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 70px;
+}
+
+.trade-sec>p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.trading>img {
+    padding-left: 140px;
+}
+
+.trading>div>h1 {
+    color: #EF443B;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trading>div>p {
+    color: #EF443B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.trading {
+    display: flex;
+    align-items: center;
 }
