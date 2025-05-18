@@ -219,6 +219,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     opacity: 0.6;
+    padding-bottom: 20px;
 }
 
 .cards {
@@ -281,4 +282,57 @@ body {
     color: #FFFFFF;
     padding: 18px 24px;
     text-transform: uppercase;
+}
+
+/* Attractive Features */
+.features {
+    background: #160E33;
+}
+
+.features>h1 {
+    margin: 0;
+    padding-top: 90px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.features>p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.card-grid h3 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.card-grid>div{
+    padding: 20px;
+}
+
+.card-head {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-grid p {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
 }
