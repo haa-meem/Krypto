@@ -399,3 +399,84 @@ body {
     font-weight: 400;
 }
 
+/* University */
+.university {
+    background: #160E33;
+    width: 100%;
+    height: 800px;
+}
+
+.university>h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 70px;
+    margin: 0;
+}
+
+.university>p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.uni-grids {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 70px;
+}
+
+.uni-grids>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.uni-grids img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.uni-grids h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.uni-grids p,
+a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.uni-grids p {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.uni-grids a {
+    color: #EF443B;
+    text-decoration: none;
+}
+
+.university>button {
+    display: inline-flex;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    border: 2px solid #EF443B;
+    background: rgba(22, 14, 51, 0.50);
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
