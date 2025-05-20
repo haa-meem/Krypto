@@ -346,16 +346,56 @@ body {
 }
 
 .download-section>h1 {
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
     font-size: 72px;
     font-weight: 700;
-    padding: 80px 70px 20px 70px;
+    padding: 165px 70px 20px 70px;
     margin: 0;
 }
 
-.button-img{
+.button-img {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
+/* Portfolio */
+.portfolio-card {
+    width: 350px;
+    height: 450px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #160E33;
+}
+
+.p-card-description {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.6;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.card-contents>h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-contents>h4 {
+    color: #EF443B;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
