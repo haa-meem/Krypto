@@ -319,7 +319,7 @@ body {
     padding: 50px;
 }
 
-.card-grid>div{
+.card-grid>div {
     padding: 20px;
 }
 
@@ -335,4 +335,27 @@ body {
     font-size: 24px;
     font-weight: 400;
     opacity: 0.6;
+}
+
+/* Download */
+.download-section {
+    background: url('./assets/bground.jpg') no-repeat center;
+    background-size: cover;
+    background-color: #160E33;
+    height: 700px;
+}
+
+.download-section>h1 {
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    padding: 80px 70px 20px 70px;
+    margin: 0;
+}
+
+.button-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
