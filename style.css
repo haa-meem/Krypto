@@ -45,10 +45,13 @@ body {
 
 /* Banner */
 .banner {
-    background: url('./assets/bg.jpg') no-repeat center;
-    background-size: cover;
-    background-color: #160E33;
     height: 700px;
+    background:
+        linear-gradient(0deg, #160E33 0%, rgba(22, 14, 51, 0.00) 31.25%),
+        linear-gradient(122deg, #160E33 28.68%, rgba(22, 14, 51, 0.30) 69.08%),
+        url('./assets/bg.jpg') no-repeat center center / cover;
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .banner>h1 {
@@ -73,12 +76,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     gap: 12px;
-}
-
-.countdown li {
-    text-align: center;
+    border-radius: 64px;
+    background: rgba(22, 14, 51, 0.5);
+    width: 350px;
+    height: 70px;
 }
 
 .num {
@@ -97,10 +100,14 @@ body {
 }
 
 .colon {
-    color: #EF443B;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0 6px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .download,
@@ -131,6 +138,7 @@ body {
 
 .banner>h3 {
     color: #FFFFFF;
+    margin-top: 40px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
