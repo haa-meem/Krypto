@@ -153,7 +153,7 @@ body {
 /* Trade Section */
 .etherium {
     position: absolute;
-    bottom: 0.5%;
+    bottom: -210px;
     left: 4.5%;
 }
 
@@ -263,7 +263,6 @@ body {
 
 .card-footer {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 45px;
 }
@@ -316,11 +315,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 50px;
+    padding: 20px 85px;
 }
 
 .card-grid>div {
-    padding: 20px;
+    padding: 30px;
 }
 
 .card-head {
@@ -363,11 +362,15 @@ body {
 /* Portfolio */
 .portfolio-card {
     width: 350px;
-    height: 450px;
+    height: 420px;
     border-radius: 16px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     background-color: #160E33;
+    padding: 20px;
 }
 
 .p-card-description {
@@ -385,14 +388,14 @@ body {
     border-radius: 48px;
 }
 
-.card-contents>h3 {
+.portfolio-card>h3 {
     color: #FFFFFF;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
 }
 
-.card-contents>h4 {
+.portfolio-card>h4 {
     color: #EF443B;
     text-align: center;
     font-size: 16px;
@@ -467,7 +470,7 @@ a {
 }
 
 .university>button {
-    display: inline-flex;
+    display: flex;
     padding: 18px 24px;
     justify-content: center;
     align-items: center;
