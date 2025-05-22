@@ -513,3 +513,77 @@ a {
     text-transform: uppercase;
     margin: 0 auto;
 }
+
+/* Footer */
+footer {
+    height: 530px;
+    background: #160E33;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 0 165px;
+}
+
+.footer-section {
+    width: 255px;
+    height: 232px;
+}
+
+.footer-section h2 {
+    color: #EF443B;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-section .logo {
+    font-weight: 700;
+    text-transform: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section p,
+.footer-section li {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 3px 0;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+
+.newsletter-form button {
+    padding: 10px 15px;
+    background-color: #ff4c4c;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.small-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.6;
+}
