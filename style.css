@@ -169,7 +169,7 @@ body {
 .etherium_1 {
     position: absolute;
     bottom: -25%;
-    left: 3.26%;
+    left: 3%;
 }
 
 .bitcoin_1 {
@@ -400,30 +400,30 @@ body {
 .etherium_2 {
     position: absolute;
     bottom: -170%;
-    right: 4.5%;
+    right: 4%;
 }
 
 .monero_2 {
     position: absolute;
-    bottom: -178.57%;
+    bottom: -178%;
     left: 7%;
 }
 
 .litecoin_2 {
     position: absolute;
-    bottom: -300.57%;
+    bottom: -300%;
     left: 7%;
 }
 
 .bitcoin_2 {
     position: absolute;
-    bottom: -317.43%;
+    bottom: -317%;
     right: 5%;
 }
 
 .features {
     background: #160E33;
-    padding-bottom: 139px;
+    padding-bottom: 100px;
 }
 
 .features>h1 {
@@ -522,26 +522,26 @@ body {
 /* Portfolio */
 .monero_3 {
     position: absolute;
-    bottom: -538.57%;
-    left: 6%;
+    bottom: -510%;
+    left: 5%;
 }
 
 .bitcoin_3 {
     position: absolute;
-    bottom: -656.43%;
+    bottom: -622%;
     left: 5%;
 }
 
 .etherium_3 {
     position: absolute;
-    bottom: -656.43%;
-    right: 2%;
+    bottom: -626%;
+    right: 1%;
 }
 
 .monero_4 {
     position: absolute;
-    bottom: -657.57%;
-    right: 8%;
+    bottom: -735%;
+    right: 7%;
 }
 
 .portfolio-card {
@@ -565,6 +565,7 @@ body {
     font-weight: 400;
     line-height: 150%;
     opacity: 0.6;
+    padding-bottom: 24px;
 }
 
 .avatar {
@@ -578,6 +579,7 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+    padding-top: 12px;
 }
 
 .portfolio-card>h4 {
@@ -591,7 +593,7 @@ body {
 .university {
     background: #160E33;
     width: 100%;
-    height: 880px;
+    height: 900px;
 }
 
 .university>h1 {
@@ -608,6 +610,7 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+    padding-bottom: 40px;
 }
 
 .uni-grids {
@@ -620,7 +623,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
+    padding:0 95px 30px 95px;
 }
 
 .uni-grids img {
@@ -634,6 +638,7 @@ body {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 10px;
 }
 
 .uni-grids p,
@@ -645,6 +650,7 @@ a {
 
 .uni-grids p {
     color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 10px;
 }
 
 .uni-grids a {
