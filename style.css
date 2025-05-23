@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
     font-family: Rubik;
@@ -448,11 +449,10 @@ body {
 }
 
 .university>p {
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
     font-size: 24px;
     font-weight: 400;
-    opacity: 0.6;
 }
 
 .uni-grids {
@@ -489,8 +489,7 @@ a {
 }
 
 .uni-grids p {
-    color: #FFFFFF;
-    opacity: 0.6;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .uni-grids a {
@@ -525,7 +524,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 40px;
-    padding: 0 165px;
+    padding: 80px 165px;
 }
 
 .footer-section {
@@ -560,29 +559,84 @@ footer {
     margin: 3px 0;
 }
 
-.newsletter-form {
-    display: flex;
-    margin-top: 10px;
+.footer-section li {
+    padding-bottom: 16px;
 }
 
-.newsletter-form input[type="email"] {
-    padding: 10px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    flex: 1;
+.newsletter-p {
+    font-size: 20px !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.newsletter-form {
+    position: relative;
+    width: 349px;
+    height: 62px;
+    margin-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form input {
+    width: 270px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 49px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
 }
 
 .newsletter-form button {
-    padding: 10px 15px;
-    background-color: #ff4c4c;
-    border: none;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
+    padding: 12px;
+    border-radius: 40px;
+    background: #EF443B;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+input::placeholder {
+    color: #E0E0E0;
+    font-family: "Hind Siliguri";
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 15px;
 }
 
 .small-text {
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+
+footer hr {
+    width: 1200px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.2);
+
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.footer-bottom a,
+.copyright {
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-bottom a {
+    padding-right: 5px;
 }
