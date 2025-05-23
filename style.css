@@ -167,7 +167,7 @@ body {
 }
 
 .trade-sec {
-    background: var(--Purple, #160E33);
+    background: #160E33;
 }
 
 .trade-sec>h1 {
@@ -187,14 +187,16 @@ body {
     opacity: 0.6;
 }
 
-.trading>img {
-    padding-left: 140px;
-}
-
 .trading>div>h1 {
     color: #EF443B;
     font-size: 36px;
     font-weight: 700;
+}
+
+.trading {
+    display: flex;
+    align-items: center;
+    padding: 20px 200px;
 }
 
 .trading>div>p {
@@ -203,10 +205,74 @@ body {
     font-weight: 500;
 }
 
-.trading {
+.trade-img {
+    position: relative;
+}
+
+.play-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EF443B;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 16px rgba(239, 68, 59, 0.4);
+    cursor: pointer;
 }
+
+.steps {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.steps h1 {
+    color: #EF443B;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.steps ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.steps li {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    color: #EF443B;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px 32px;
+    border-radius: 56px;
+    background: #160E33;
+    border: 1px solid rgba(239, 68, 59, 0.4);
+    box-shadow: 0 0 16px rgba(239, 68, 59, 0.3);
+}
+
+.steps span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background: #EF443B;
+    color: #160E33;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
 
 /* Available Cryptos */
 .cryptos {
@@ -273,6 +339,7 @@ body {
 .card-footer {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 45px;
 }
 
