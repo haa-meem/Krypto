@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Rubik;
 }
@@ -162,23 +168,21 @@ body {
 /* Trade Section */
 .etherium_1 {
     position: absolute;
-    bottom: -210px;
-    left: 47px;
+    bottom: -25%;
+    left: 3.26%;
 }
 
 .bitcoin_1 {
     position: absolute;
-    bottom: 10px;
-    left: 13%;
-    bottom: 350px;
-    transform: translateY(-50%);
+    left: 11%;
+    bottom: 65%;
+    transform: translateY(50%);
 }
 
 .litecoin_1 {
     position: absolute;
-    bottom: 10px;
     right: 11%;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
 }
 
@@ -207,6 +211,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     opacity: 0.6;
+    padding-bottom: 80px;
 }
 
 .trading>div>h1 {
@@ -316,7 +321,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     opacity: 0.6;
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .cards {
@@ -394,35 +399,36 @@ body {
 /* Attractive Features */
 .etherium_2 {
     position: absolute;
-    bottom: -1190px;
+    bottom: -170%;
     right: 4.5%;
 }
 
 .monero_2 {
     position: absolute;
-    bottom: -1250px;
+    bottom: -178.57%;
     left: 7%;
 }
 
 .litecoin_2 {
     position: absolute;
-    bottom: -2230px;
+    bottom: -300.57%;
     left: 7%;
 }
 
 .bitcoin_2 {
     position: absolute;
-    bottom: -2320px;
-    right: 7%;
+    bottom: -317.43%;
+    right: 5%;
 }
 
 .features {
     background: #160E33;
+    padding-bottom: 139px;
 }
 
 .features>h1 {
     margin: 0;
-    padding-top: 170px;
+    padding-top: 200px;
     color: #FFFFFF;
     text-align: center;
     font-size: 64px;
@@ -435,6 +441,7 @@ body {
     font-size: 24px;
     font-weight: 400;
     opacity: 0.6;
+    padding-bottom: 80px;
 }
 
 .card-grid h3 {
@@ -515,26 +522,26 @@ body {
 /* Portfolio */
 .monero_3 {
     position: absolute;
-    bottom: -3770px;
+    bottom: -538.57%;
     left: 6%;
 }
 
 .bitcoin_3 {
     position: absolute;
-    bottom: -4595px;
+    bottom: -656.43%;
     left: 5%;
 }
 
 .etherium_3 {
     position: absolute;
-    bottom: -4595px;
+    bottom: -656.43%;
     right: 2%;
 }
 
 .monero_4 {
     position: absolute;
-    bottom: -5310px;
-    right: 10%;
+    bottom: -657.57%;
+    right: 8%;
 }
 
 .portfolio-card {
@@ -766,7 +773,7 @@ footer hr {
     width: 1200px;
     height: 1px;
     color: rgba(255, 255, 255, 0.2);
-
+    margin: 0 auto;
 }
 
 .footer-bottom {
