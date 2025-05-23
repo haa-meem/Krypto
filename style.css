@@ -160,10 +160,32 @@ body {
 
 
 /* Trade Section */
-.etherium {
+.etherium_1 {
     position: absolute;
     bottom: -210px;
-    left: 4.5%;
+    left: 47px;
+}
+
+.bitcoin_1 {
+    position: absolute;
+    bottom: 10px;
+    left: 13%;
+    bottom: 350px;
+    transform: translateY(-50%);
+}
+
+.litecoin_1 {
+    position: absolute;
+    bottom: 10px;
+    right: 11%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.monero_1 {
+    position: absolute;
+    right: 11%;
+    top: 100%;
 }
 
 .trade-sec {
@@ -281,7 +303,7 @@ body {
 
 .cryptos>h1 {
     margin: 0;
-    padding-top: 80px;
+    padding-top: 100px;
     color: #FFFFFF;
     text-align: center;
     font-size: 64px;
@@ -360,13 +382,37 @@ body {
 }
 
 /* Attractive Features */
+.etherium_2 {
+    position: absolute;
+    bottom: -1190px;
+    right: 4.5%;
+}
+
+.monero_2 {
+    position: absolute;
+    bottom: -1250px;
+    left: 7%;
+}
+
+.litecoin_2 {
+    position: absolute;
+    bottom: -2230px;
+    left: 7%;
+}
+
+.bitcoin_2 {
+    position: absolute;
+    bottom: -2320px;
+    right: 7%;
+}
+
 .features {
     background: #160E33;
 }
 
 .features>h1 {
     margin: 0;
-    padding-top: 90px;
+    padding-top: 170px;
     color: #FFFFFF;
     text-align: center;
     font-size: 64px;
@@ -457,10 +503,35 @@ body {
 
 
 /* Portfolio */
+.monero_3 {
+    position: absolute;
+    bottom: -3770px;
+    left: 6%;
+}
+
+.bitcoin_3 {
+    position: absolute;
+    bottom: -4595px;
+    left: 5%;
+}
+
+.etherium_3 {
+    position: absolute;
+    bottom: -4595px;
+    right: 2%;
+}
+
+.monero_4 {
+    position: absolute;
+    bottom: -5310px;
+    right: 10%;
+}
+
 .portfolio-card {
     width: 350px;
     height: 450px;
-    border-radius: 16px;
+    border-radius: 12px;
+    border: 2px solid var(--Red, #EF443B);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -503,7 +574,7 @@ body {
 .university {
     background: #160E33;
     width: 100%;
-    height: 800px;
+    height: 880px;
 }
 
 .university>h1 {
@@ -511,7 +582,7 @@ body {
     text-align: center;
     font-size: 64px;
     font-weight: 700;
-    padding-top: 70px;
+    padding-top: 150px;
     margin: 0;
 }
 
