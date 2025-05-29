@@ -170,28 +170,28 @@ body {
 /* Trade Section */
 .etherium_1 {
     position: absolute;
-    bottom: -25%;
+    top: 93%;
     left: 3%;
 }
 
 .bitcoin_1 {
     position: absolute;
     left: 11%;
-    bottom: 65%;
+    bottom: 60%;
     transform: translateY(50%);
 }
 
 .litecoin_1 {
     position: absolute;
-    right: 11%;
-    top: 45%;
+    right: 8%;
+    top: 50%;
     transform: translateY(-50%);
 }
 
 .monero_1 {
     position: absolute;
-    right: 11%;
-    top: 100%;
+    right: 7%;
+    top: 95%;
 }
 
 .trade-sec {
@@ -403,25 +403,25 @@ body {
 /* Attractive Features */
 .etherium_2 {
     position: absolute;
-    bottom: -170%;
-    right: 4%;
+    top: 230%;
+    right: 6%;
 }
 
 .monero_2 {
     position: absolute;
-    bottom: -178%;
+    top: 250%;
     left: 7%;
 }
 
 .litecoin_2 {
     position: absolute;
-    bottom: -300%;
-    left: 7%;
+    top: 360%;
+    left: 5%;
 }
 
 .bitcoin_2 {
     position: absolute;
-    bottom: -317%;
+    top:380%;
     right: 5%;
 }
 
@@ -526,25 +526,25 @@ body {
 /* Portfolio */
 .monero_3 {
     position: absolute;
-    bottom: -510%;
+    top: 565%;
     left: 5%;
 }
 
 .bitcoin_3 {
     position: absolute;
-    bottom: -622%;
+    top: 670%;
     left: 5%;
 }
 
 .etherium_3 {
     position: absolute;
-    bottom: -626%;
+    top:665%;
     right: 1%;
 }
 
 .monero_4 {
     position: absolute;
-    bottom: -735%;
+    top:777%;
     right: 7%;
 }
 
@@ -628,7 +628,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding:0 95px 30px 95px;
+    padding: 0 95px 30px 95px;
 }
 
 .uni-grids img {
