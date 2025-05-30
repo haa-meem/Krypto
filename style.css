@@ -403,25 +403,25 @@ body {
 /* Attractive Features */
 .etherium_2 {
     position: absolute;
-    top: 230%;
-    right: 6%;
+    top: 240%;
+    right: 5%;
 }
 
 .monero_2 {
     position: absolute;
-    top: 250%;
+    top: 268%;
     left: 7%;
 }
 
 .litecoin_2 {
     position: absolute;
-    top: 360%;
+    top: 382%;
     left: 5%;
 }
 
 .bitcoin_2 {
     position: absolute;
-    top:380%;
+    top: 405%;
     right: 5%;
 }
 
@@ -526,25 +526,25 @@ body {
 /* Portfolio */
 .monero_3 {
     position: absolute;
-    top: 565%;
+    top: 605%;
     left: 5%;
 }
 
 .bitcoin_3 {
     position: absolute;
-    top: 670%;
+    top: 715%;
     left: 5%;
 }
 
 .etherium_3 {
     position: absolute;
-    top:665%;
+    top: 707%;
     right: 1%;
 }
 
 .monero_4 {
     position: absolute;
-    top:777%;
+    top: 827%;
     right: 7%;
 }
 
